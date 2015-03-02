@@ -24,7 +24,7 @@
         </dict>
         <dict>
             <key>match</key>
-            <string>\b(chan|port|interface|timer|unsafe|alias|movable)\b</string>
+            <string>\b(chan|port|interface|timer|unsafe|alias|movable|in|out)\b</string>
             <key>name</key>
             <string>storage.type.xc</string>
         </dict>
