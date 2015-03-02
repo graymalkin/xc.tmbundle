@@ -34,6 +34,18 @@
             <key>name</key>
             <string>keyword.operator.xc</string>
         </dict>
+        <dict>
+            <key>match</key>
+            <string>\b(tile|core)\b</string>
+            <key>name</key>
+            <string>keyword.operator.xc</string>
+        </dict>
+        <dict>
+            <key>match</key>
+            <string>\b(\<\:|\:\>)\b</string>
+            <key>name</key>
+            <string>keyword.operator.xc</string>
+        </dict>
 
 		<dict>
 			<key>include</key>
