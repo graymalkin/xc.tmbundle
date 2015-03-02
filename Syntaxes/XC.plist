@@ -18,7 +18,7 @@
 	<array>
         <dict>
             <key>match</key>
-            <string>\b(par|select|master|slave|client|server|on)\b</string>
+            <string>\b(par|select|master|slave|client|server)\b</string>
             <key>name</key>
             <string>keyword.control.c</string>
         </dict>
@@ -28,6 +28,13 @@
             <key>name</key>
             <string>storage.type.c</string>
         </dict>
+        <dict>
+            <key>match</key>
+            <string>\b(on|when)\b</string>
+            <key>name</key>
+            <string>keyword.operator.xc</string>
+        </dict>
+
 		<dict>
 			<key>include</key>
 			<string>#special_block</string>
