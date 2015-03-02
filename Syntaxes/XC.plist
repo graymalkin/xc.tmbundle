@@ -24,7 +24,7 @@
         </dict>
         <dict>
             <key>match</key>
-            <string>\b(chan|port|interface|timer)\b</string>
+            <string>\b(chan|port|interface|timer|unsafe|alias|movable)\b</string>
             <key>name</key>
             <string>storage.type.xc</string>
         </dict>
@@ -40,7 +40,6 @@
             <key>name</key>
             <string>keyword.operator.xc</string>
         </dict>
-
 
 		<dict>
 			<key>include</key>
