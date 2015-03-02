@@ -9,7 +9,7 @@
 		<string>xc</string>
 	</array>
 	<key>firstLineMatch</key>
-	<string>-\*- XC -\*-</string>
+	<string>-\*- XC -\*-</string<name />
 	<key>keyEquivalent</key>
 	<string>^~C</string>
 	<key>name</key>
@@ -18,29 +18,35 @@
 	<array>
         <dict>
             <key>match</key>
-            <string>\b(par|select|master|slave|client|server)\b</string>
+            <string>\b(par|select|master|slave|client|server|asm|service|transaction|move|extends)\b</string>
             <key>name</key>
             <string>keyword.control.xc</string>
         </dict>
         <dict>
             <key>match</key>
-            <string>\b(chan|port|interface|timer|unsafe|alias|movable|in|out)\b</string>
+            <string>\b(chan|chanend|port|interface|timer|clock|unsafe|alias|noalias|movable|in|out|buffered)\b</string>
             <key>name</key>
             <string>storage.type.xc</string>
         </dict>
         <dict>
             <key>match</key>
-            <string>\b(on|when)\b</string>
+            <string>\b(on|when|isnull)\b</string>
             <key>name</key>
             <string>keyword.operator.xc</string>
         </dict>
         <dict>
             <key>match</key>
-            <string>\b(tile|core)\b</string>
+            <string>\b(tile|core|tileref)\b</string>
             <key>name</key>
             <string>keyword.operator.xc</string>
         </dict>
-
+        <dict>
+            <key>match</key>
+            <string>\b(\[\[(combinable|distributed)\]\])\b</string>
+            <key>name</key>
+            <string>keyword.operator.xc</string>
+        </dict>
+        
 		<dict>
 			<key>include</key>
 			<string>#special_block</string>
