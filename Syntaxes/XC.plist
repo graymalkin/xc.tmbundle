@@ -20,13 +20,13 @@
             <key>match</key>
             <string>\b(par|select|master|slave|client|server)\b</string>
             <key>name</key>
-            <string>keyword.control.c</string>
+            <string>keyword.control.xc</string>
         </dict>
         <dict>
             <key>match</key>
             <string>\b(chan|port|interface|timer)\b</string>
             <key>name</key>
-            <string>storage.type.c</string>
+            <string>storage.type.xc</string>
         </dict>
         <dict>
             <key>match</key>
@@ -587,6 +587,6 @@
 	<key>scopeName</key>
 	<string>source.xc</string>
 	<key>uuid</key>
-	<string>26251B18-6B1D-11D9-AFDB-000D93589AF6</string>
+	<string>1920a860-c107-11e4-8830-0800200c9a66</string>
 </dict>
 </plist>
