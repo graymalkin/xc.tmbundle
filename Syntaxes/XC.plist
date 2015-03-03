@@ -24,9 +24,15 @@
         </dict>
         <dict>
             <key>match</key>
-            <string>\b(chan|chanend|port|interface|timer|clock|unsafe|alias|noalias|movable|in|out|buffered|streaming)\b</string>
+            <string>\b(chan|chanend|port|interface|timer|clock)\b</string>
             <key>name</key>
-            <string>storage.type.xc</string>
+            <string>storage.modifier.$1.c++</string>
+        </dict>
+        <dict>
+            <key>match</key>
+            <string>\b(unsafe|alias|noalias|movable|in|out|buffered|streaming)\b</string>
+            <key>name</key>
+            <string>keyword.operator.xc</string>
         </dict>
         <dict>
             <key>match</key>
