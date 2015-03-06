@@ -9,7 +9,7 @@
 		<string>xc</string>
 	</array>
 	<key>firstLineMatch</key>
-	<string>-\*- XC -\*-</string<name />
+	<string>-\*- XC -\*-</string>
 	<key>keyEquivalent</key>
 	<string>^~C</string>
 	<key>name</key>
